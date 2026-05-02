@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import type { Product } from './mockData'
+import type { Product } from '../mockData'
 
-const props = defineProps<{
+defineProps<{
   products: Product[]
   isLoading?: boolean
 }>()
